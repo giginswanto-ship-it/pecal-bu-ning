@@ -5,19 +5,25 @@ echo ===============================================================
 echo   PUSH PROYEK PECEL BU NING KE GITHUB (giginswanto-ship-it)
 echo ===============================================================
 echo.
-echo Remote target: https://github.com/giginswanto-ship-it/pecal-bu-ning.git
+echo Target Repositori : https://github.com/giginswanto-ship-it/pecal-bu-ning.git
+echo Branch            : main dan pecal-bu-ning
 echo.
-echo Melakukan git push...
+echo Sedang melakukan upload (git push)...
 git push -u origin main
+git push -u origin pecal-bu-ning
 echo.
 if %errorlevel% equ 0 (
     echo ===============================================================
     echo [SUKSES] Berhasil dipush ke GitHub!
-    echo URL: https://github.com/giginswanto-ship-it/pecal-bu-ning
+    echo Cek repositori: https://github.com/giginswanto-ship-it/pecal-bu-ning
     echo ===============================================================
 ) else (
     echo ===============================================================
-    echo [INFO] Jika diminta login GitHub, silakan selesaikan otorisasi di browser.
+    echo [PERHATIAN] Jika jendela browser / login GitHub muncul:
+    echo 1. Pilih 'Sign in with your browser'
+    echo 2. Login menggunakan akun: giginswanto-ship-it
+    echo 3. Setelah disetujui, file akan otomatis ter-upload.
     echo ===============================================================
 )
+echo.
 pause
