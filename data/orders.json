@@ -1,0 +1,176 @@
+[
+  {
+    "id": "ord-1794833770327",
+    "orderNumber": "106",
+    "customerName": "Budi Test",
+    "orderType": "dine-in",
+    "status": "ready",
+    "paymentMethod": "Tunai",
+    "items": [
+      {
+        "id": "pcl-1",
+        "name": "Nasi Pecel Pincuk Tradisional",
+        "price": 14000,
+        "qty": 1,
+        "spiceLevel": "Pedas Mantap"
+      }
+    ],
+    "notes": "",
+    "total": 14000,
+    "createdAt": "2026-11-16T12:56:10.327Z",
+    "updatedAt": "2026-11-16T12:56:23.330Z"
+  },
+  {
+    "id": "ord-101",
+    "orderNumber": "101",
+    "customerName": "Pak Bambang",
+    "orderType": "dine-in",
+    "status": "ready",
+    "createdAt": "2026-11-16T19:35:10.000Z",
+    "updatedAt": "2026-11-16T19:42:00.000Z",
+    "paymentMethod": "QRIS",
+    "items": [
+      {
+        "id": "pkt-1",
+        "name": "Paket Mantap Bu Ning (Pecel + Telur + Peyek + Es Teh)",
+        "price": 22000,
+        "qty": 2,
+        "spiceLevel": "Pedas Mantap",
+        "servingType": "Pincuk Daun Pisang",
+        "eggType": "Telur Dadar",
+        "notes": "Bumbu jangan terlalu cair"
+      },
+      {
+        "id": "gor-3",
+        "name": "Bakwan Jagung Manis Renyah",
+        "price": 3500,
+        "qty": 2,
+        "notes": ""
+      }
+    ],
+    "total": 51000
+  },
+  {
+    "id": "ord-102",
+    "orderNumber": "102",
+    "customerName": "Ibu Siti",
+    "orderType": "takeaway",
+    "status": "ready",
+    "createdAt": "2026-11-16T19:38:00.000Z",
+    "updatedAt": "2026-11-16T19:44:15.000Z",
+    "paymentMethod": "Tunai",
+    "items": [
+      {
+        "id": "pkt-2",
+        "name": "Paket Juara Empal Sapi + Es Jeruk",
+        "price": 35000,
+        "qty": 1,
+        "spiceLevel": "Sedang",
+        "servingType": "Bungkus Kertas Coklat",
+        "notes": "Bumbu dipisah ya bu"
+      },
+      {
+        "id": "oleh-1",
+        "name": "Bumbu Pecel Asli Madiun Bu Ning (250 gr)",
+        "price": 25000,
+        "qty": 2,
+        "notes": ""
+      }
+    ],
+    "total": 85000
+  },
+  {
+    "id": "ord-103",
+    "orderNumber": "103",
+    "customerName": "Mas Dimas",
+    "orderType": "dine-in",
+    "status": "preparing",
+    "createdAt": "2026-11-16T19:41:20.000Z",
+    "updatedAt": "2026-11-16T19:41:20.000Z",
+    "paymentMethod": "QRIS",
+    "items": [
+      {
+        "id": "pkt-3",
+        "name": "Paket Sultan Ayam Lengkuas + Telur Asin",
+        "price": 38000,
+        "qty": 1,
+        "spiceLevel": "Pedas Gila (Rawit)",
+        "servingType": "Pincuk Daun Pisang",
+        "notes": "Kremesan banyakin"
+      },
+      {
+        "id": "lau-6",
+        "name": "Sate Usus Ayam Bumbu Kuning",
+        "price": 4000,
+        "qty": 2,
+        "notes": ""
+      }
+    ],
+    "total": 46000
+  },
+  {
+    "id": "ord-104",
+    "orderNumber": "104",
+    "customerName": "Mba Rini",
+    "orderType": "takeaway",
+    "status": "preparing",
+    "createdAt": "2026-11-16T19:43:05.000Z",
+    "updatedAt": "2026-11-16T19:43:05.000Z",
+    "paymentMethod": "Transfer",
+    "items": [
+      {
+        "id": "pcl-1",
+        "name": "Nasi Pecel Pincuk Tradisional",
+        "price": 14000,
+        "qty": 3,
+        "spiceLevel": "Sedang",
+        "servingType": "Bungkus Kertas Coklat",
+        "notes": "Semua bumbu dipisah"
+      },
+      {
+        "id": "lau-4",
+        "name": "Telur Asin Brebes Masir",
+        "price": 7000,
+        "qty": 3,
+        "notes": ""
+      },
+      {
+        "id": "gor-4",
+        "name": "Rempeyek Kacang Daun Jeruk (Porsi)",
+        "price": 4000,
+        "qty": 3,
+        "notes": ""
+      }
+    ],
+    "total": 75000
+  },
+  {
+    "id": "ord-105",
+    "orderNumber": "105",
+    "customerName": "Pak Joko",
+    "orderType": "dine-in",
+    "status": "preparing",
+    "createdAt": "2026-11-16T19:45:00.000Z",
+    "updatedAt": "2026-11-16T19:45:00.000Z",
+    "paymentMethod": "Tunai",
+    "items": [
+      {
+        "id": "pcl-3",
+        "name": "Nasi Pecel Sambal Tumpang Madiun",
+        "price": 18000,
+        "qty": 2,
+        "spiceLevel": "Pedas Mantap",
+        "servingType": "Pincuk Daun Pisang",
+        "notes": "Sayur kembang turi kalau ada"
+      },
+      {
+        "id": "min-3",
+        "name": "Wedang Uwuh Komplit Bu Ning",
+        "price": 8000,
+        "qty": 2,
+        "notes": "Gula batu agak manis"
+      }
+    ],
+    "total": 52000
+  }
+]

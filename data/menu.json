@@ -1,0 +1,250 @@
+{
+  "categories": [
+    { "id": "paket", "name": "Paket Hemat & Juara", "icon": "fa-star" },
+    { "id": "pecel", "name": "Nasi & Lontong Pecel", "icon": "fa-bowl-rice" },
+    { "id": "lauk", "name": "Lauk Tambahan", "icon": "fa-drumstick-bite" },
+    { "id": "gorengan", "name": "Gorengan & Peyek", "icon": "fa-cookie" },
+    { "id": "minuman", "name": "Minuman Segar", "icon": "fa-glass-water" },
+    { "id": "oleholeh", "name": "Oleh-Oleh & Bumbu", "icon": "fa-box-archive" }
+  ],
+  "items": [
+    {
+      "id": "pkt-1",
+      "name": "Paket Mantap Bu Ning (Pecel + Telur + Peyek + Es Teh)",
+      "category": "paket",
+      "price": 22000,
+      "description": "Nasi pecel pincuk daun pisang komplit sayuran, telur dadar/ceplok, rempeyek kacang renyah, dan es teh manis melati.",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&q=80",
+      "badge": "Terlaris",
+      "options": {
+        "spiceLevels": ["Tidak Pedas (Manis)", "Sedang", "Pedas Mantap", "Pedas Gila (Rawit)"],
+        "servingTypes": ["Pincuk Daun Pisang", "Piring Keramik", "Bungkus Kertas Coklat"],
+        "eggTypes": ["Telur Dadar", "Telur Ceplok"]
+      }
+    },
+    {
+      "id": "pkt-2",
+      "name": "Paket Juara Empal Sapi + Es Jeruk",
+      "category": "paket",
+      "price": 35000,
+      "description": "Nasi pecel pincuk istimewa, empal gepuk daging sapi manis gurih empuk, peyek renyah, dan es jeruk peras segar.",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80",
+      "badge": "Rekomendasi",
+      "options": {
+        "spiceLevels": ["Tidak Pedas (Manis)", "Sedang", "Pedas Mantap", "Pedas Gila (Rawit)"],
+        "servingTypes": ["Pincuk Daun Pisang", "Piring Keramik", "Bungkus Kertas Coklat"]
+      }
+    },
+    {
+      "id": "pkt-3",
+      "name": "Paket Sultan Ayam Lengkuas + Telur Asin",
+      "category": "paket",
+      "price": 38000,
+      "description": "Nasi pecel pincuk, ayam goreng serundeng lengkuas empuk, telur asin masir gurih, peyek teri, dan es dawet gula aren.",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=500&q=80",
+      "badge": "Komplit",
+      "options": {
+        "spiceLevels": ["Tidak Pedas (Manis)", "Sedang", "Pedas Mantap", "Pedas Gila (Rawit)"],
+        "servingTypes": ["Pincuk Daun Pisang", "Piring Keramik", "Bungkus Kertas Coklat"]
+      }
+    },
+    {
+      "id": "pcl-1",
+      "name": "Nasi Pecel Pincuk Tradisional",
+      "category": "pecel",
+      "price": 14000,
+      "description": "Nasi hangat dengan aneka sayuran rebus segar disiram bumbu pecel sangrai khas Madiun dan rempeyek kacang.",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&q=80",
+      "badge": "Favorit",
+      "options": {
+        "spiceLevels": ["Tidak Pedas (Manis)", "Sedang", "Pedas Mantap", "Pedas Gila (Rawit)"],
+        "servingTypes": ["Pincuk Daun Pisang", "Piring Keramik", "Bungkus Kertas Coklat"]
+      }
+    },
+    {
+      "id": "pcl-2",
+      "name": "Lontong Pecel Komplit",
+      "category": "pecel",
+      "price": 15000,
+      "description": "Lontong daun pulen dengan sayuran segar, siraman bumbu pecel kental gurih, dan taburan bawang goreng plus rempeyek.",
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=500&q=80",
+      "options": {
+        "spiceLevels": ["Tidak Pedas (Manis)", "Sedang", "Pedas Mantap", "Pedas Gila (Rawit)"],
+        "servingTypes": ["Pincuk Daun Pisang", "Piring Keramik", "Bungkus Kertas Coklat"]
+      }
+    },
+    {
+      "id": "pcl-3",
+      "name": "Nasi Pecel Sambal Tumpang Madiun",
+      "category": "pecel",
+      "price": 18000,
+      "description": "Kombinasi legendaris pecel bumbu kacang gurih dipadu kuah sambal tumpang tempe semangit kental beraroma kencur harum.",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=500&q=80",
+      "badge": "Khas Madiun",
+      "options": {
+        "spiceLevels": ["Sedang", "Pedas Mantap"],
+        "servingTypes": ["Pincuk Daun Pisang", "Piring Keramik", "Bungkus Kertas Coklat"]
+      }
+    },
+    {
+      "id": "lau-1",
+      "name": "Empal Daging Sapi Ungkep",
+      "category": "lauk",
+      "price": 17000,
+      "description": "Daging sapi pilihan diungkep bumbu ketumbar dan gula jawa lalu digoreng empuk meresap sampai ke serat daging.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "lau-2",
+      "name": "Ayam Goreng Lengkuas",
+      "category": "lauk",
+      "price": 16000,
+      "description": "Potongan ayam berbumbu rempah nusantara dengan taburan kremes parutan lengkuas renyah harum.",
+      "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "lau-3",
+      "name": "Paru Sapi Goreng Crispy",
+      "category": "lauk",
+      "price": 15000,
+      "description": "Paru sapi bumbu rempah gurih, digoreng garing di luar dan lembut kenyal di dalam, tanpa bau amis.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "lau-4",
+      "name": "Telur Asin Brebes Masir",
+      "category": "lauk",
+      "price": 7000,
+      "description": "Telur bebek asin asli Brebes dengan kuning telur berminyak masir legit gurih.",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "lau-5",
+      "name": "Telur Dadar Daun Bawang",
+      "category": "lauk",
+      "price": 5000,
+      "description": "Telur dadar tebal gurih digoreng garing berserat dengan irisan daun bawang segar.",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "lau-6",
+      "name": "Sate Usus Ayam Bumbu Kuning",
+      "category": "lauk",
+      "price": 4000,
+      "description": "Sate usus ayam bersih diungkep bumbu kuning rempah gurih meresap.",
+      "image": "https://images.unsplash.com/photo-1529563021893-cc83c914d73e?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "lau-7",
+      "name": "Sate Telur Puyuh Kecap Manis",
+      "category": "lauk",
+      "price": 4500,
+      "description": "Tiga butir telur puyuh dimasak bumbu bacem kecap manis gurih legit.",
+      "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "gor-1",
+      "name": "Tempe Bacem Legit",
+      "category": "gorengan",
+      "price": 3000,
+      "description": "Tempe kedelai dimasak air kelapa dan gula jawa bumbu rempah tradisional Jawa.",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "gor-2",
+      "name": "Tahu Bacem Gurih",
+      "category": "gorengan",
+      "price": 3000,
+      "description": "Tahu putih lembut dimasak bacem meresap manis gurih khas Jawa Timur.",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "gor-3",
+      "name": "Bakwan Jagung Manis Renyah",
+      "category": "gorengan",
+      "price": 3500,
+      "description": "Gorengan jagung manis pipil renyah gurih dengan daun seledri harum.",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "gor-4",
+      "name": "Rempeyek Kacang Daun Jeruk (Porsi)",
+      "category": "gorengan",
+      "price": 4000,
+      "description": "Peyek kacang tanah renyah tipis bertabur irisan daun jeruk purut wangi.",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "gor-5",
+      "name": "Rempeyek Teri Medan Renyah",
+      "category": "gorengan",
+      "price": 4500,
+      "description": "Peyek gurih renyah dengan teri medan asin lezat dan harum rempah kencur.",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "min-1",
+      "name": "Es Teh Manis Melati",
+      "category": "minuman",
+      "price": 4000,
+      "description": "Teh wangi melati wasgitel segar disajikan dengan es batu kristal.",
+      "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "min-2",
+      "name": "Es Jeruk Peras Segar",
+      "category": "minuman",
+      "price": 6000,
+      "description": "Perasan jeruk segar asli bukan sirup, manis alami dan kaya vitamin C.",
+      "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "min-3",
+      "name": "Wedang Uwuh Komplit Bu Ning",
+      "category": "minuman",
+      "price": 8000,
+      "description": "Minuman herbal hangat khas keraton: kayu secang, jahe geprek, cengkeh, kayu manis, dan gula batu.",
+      "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "min-4",
+      "name": "Es Dawet Cendol Gula Aren",
+      "category": "minuman",
+      "price": 9000,
+      "description": "Cendol beras pandan kenyal dengan santan gurih segar dan saus gula aren asli harum nangka.",
+      "image": "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "min-5",
+      "name": "Air Mineral Botol Dingin / Netral",
+      "category": "minuman",
+      "price": 4000,
+      "description": "Air mineral 600ml kemasan higienis.",
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "oleh-1",
+      "name": "Bumbu Pecel Asli Madiun Bu Ning (250 gr)",
+      "category": "oleholeh",
+      "price": 25000,
+      "description": "Bumbu pecel sangrai tanpa minyak, resep warisan keluarga Bu Ning, tahan hingga 6 bulan. Tinggal seduh air hangat.",
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "oleh-2",
+      "name": "Bumbu Pecel Kemasan Jumbo (500 gr)",
+      "category": "oleholeh",
+      "price": 45000,
+      "description": "Bumbu pecel kemasan ekonomis 500 gram pilihan tingkat pedas: Sedang atau Pedas Mantap.",
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "oleh-3",
+      "name": "Peyek Kacang Daun Jeruk Toples 5L",
+      "category": "oleholeh",
+      "price": 40000,
+      "description": "Satu toples kedap udara rempeyek kacang daun jeruk renyah gurih oleh-oleh khas Bu Ning.",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80"
+    }
+  ]
+}

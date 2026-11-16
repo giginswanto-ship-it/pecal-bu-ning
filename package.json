@@ -1,0 +1,18 @@
+{
+  "name": "pecel-bu-ning-order-display",
+  "version": "1.0.0",
+  "description": "Aplikasi Display Order & KDS Model McD untuk Nasi Pecel Bu Ning's",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["order-display", "kds", "pos", "mcd-display", "nasi-pecel"],
+  "author": "Pecel Bu Ning",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}

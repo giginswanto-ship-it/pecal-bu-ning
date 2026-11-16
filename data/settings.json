@@ -1,0 +1,16 @@
+{
+  "storeName": "Nasi Pecel Bu Ning's",
+  "storeTagline": "Cita Rasa Asli Madiun & Tradisional Lezat",
+  "storeAddress": "Jl. Raya Pecel Madiun No. 88, Jawa Timur",
+  "storePhone": "0812-3456-7890",
+  "runningText": "SELAMAT DATANG DI NASI PECEL BU NING'S • BUMBU ASLI KACANG SANGRAI KHAS MADIUN TANPA PENGAWET • MOHON PERIKSA NOMOR ANTREAN PADA STRUK ANDA • TERSEDIA BUMBU PECEL KEMASAN OLEH-OLEH & ANEKA PEYEK RENYAH • MENERIMA PESANAN NASI KOTAK & CATERING",
+  "audioEnabled": true,
+  "voiceEnabled": true,
+  "volume": 0.9,
+  "chimeType": "mcdonalds",
+  "orderPrefix": "",
+  "currentOrderNumber": 106,
+  "currency": "Rp",
+  "taxRate": 0,
+  "serviceRate": 0
+}

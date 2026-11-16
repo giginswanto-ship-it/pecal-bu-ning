@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Layar Antrean Pesanan (Model McD) - Nasi Pecel Bu Ning's</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="tv-lock-mode">
+
+  <div class="display-wrapper" style="height: 100vh;">
+
+    <!-- Unmute Audio Banner -->
+    <div id="audioAlertBanner" class="audio-alert-banner" onclick="enableAudio()">
+      <i class="fa-solid fa-volume-high"></i>
+      <span>Klik di sini untuk mengaktifkan Suara Bel & Pemanggilan Nomor Otomatis di Layar TV</span>
+    </div>
+
+    <!-- Header McD Style -->
+    <header class="display-header">
+      <div class="brand-section">
+        <div class="appbar-logo">
+          <i class="fa-solid fa-bowl-rice"></i>
+        </div>
+        <div class="brand-text">
+          <h1 id="brandTitle">PECEL BU NING'S</h1>
+          <p id="brandTagline">Cita Rasa Asli Madiun & Tradisional Lezat</p>
+        </div>
+      </div>
+
+      <div class="display-meta">
+        <div class="clock-card">
+          <div id="liveTime" class="live-time">00:00:00</div>
+          <div id="liveDate" class="live-date">Memuat tanggal...</div>
+        </div>
+
+        <div style="display: flex; gap: 8px;">
+          <button id="btnSoundTest" class="android-icon-btn" title="Tes Suara Bel & Panggilan" onclick="testAudio()">
+            <i class="fa-solid fa-bell"></i>
+          </button>
+          <button id="btnSoundToggle" class="android-icon-btn" title="Mute/Unmute" onclick="toggleMute()">
+            <i id="soundIcon" class="fa-solid fa-volume-high"></i>
+          </button>
+          <button id="btnFullscreen" class="android-icon-btn" title="Layar Penuh (TV Mode)" onclick="toggleFullscreen()">
+            <i class="fa-solid fa-expand"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- McD 2-Column Split Order Board -->
+    <main class="order-board">
+      
+      <!-- Kolom Kiri: Sedang Disiapkan -->
+      <section class="board-column">
+        <div class="col-header preparing">
+          <div class="col-title">
+            <i class="fa-solid fa-fire-burner"></i>
+            <h2>SEDANG DISIAPKAN</h2>
+          </div>
+          <div id="countPreparing" class="col-badge">0</div>
+        </div>
+        <div class="board-grid-scroll">
+          <div id="gridPreparing" class="board-grid"></div>
+        </div>
+      </section>
+
+      <!-- Kolom Kanan: Siap Diambil -->
+      <section class="board-column">
+        <div class="col-header ready">
+          <div class="col-title">
+            <i class="fa-solid fa-bell-concierge"></i>
+            <h2>SIAP DIAMBIL</h2>
+          </div>
+          <div id="countReady" class="col-badge">0</div>
+        </div>
+        <div class="board-grid-scroll">
+          <div id="gridReady" class="board-grid"></div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Promo Carousel Footer -->
+    <div class="promo-carousel-container">
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <span class="promo-badge">SPESIAL HARI INI</span>
+        <div class="promo-text" id="promoText">
+          <span>Paket Mantap Bu Ning:</span> Nasi Pecel Pincuk Daun Pisang + Telur Dadar + Rempeyek Gurih + Es Teh Melati Rp 22.000!
+        </div>
+      </div>
+      <div style="font-size: 0.85rem; color: #94a3b8; display: flex; align-items: center; gap: 6px;">
+        <i class="fa-solid fa-qrcode" style="color: #4ade80;"></i>
+        <span>Bayar Praktis via QRIS / Tunai</span>
+      </div>
+    </div>
+
+    <!-- Bottom Running Text -->
+    <footer class="ticker-footer">
+      <div class="ticker-label">
+        <i class="fa-solid fa-bullhorn"></i> PENGUMUMAN
+      </div>
+      <div class="ticker-content">
+        <div id="runningText" class="ticker-text">
+          SELAMAT DATANG DI NASI PECEL BU NING'S • BUMBU ASLI KACANG SANGRAI KHAS MADIUN TANPA PENGAWET • MOHON PERIKSA NOMOR ANTREAN PADA STRUK ANDA • HARAP SIAPKAN STRUK SAAT PENGAMBILAN PESANAN DI KASIR • TERSEDIA BUMBU PECEL KEMASAN OLEH-OLEH & ANEKA PEYEK RENYAH • MENERIMA PESANAN NASI KOTAK & TUMPENG
+        </div>
+      </div>
+    </footer>
+
+    <!-- Large Popup Callout -->
+    <div id="orderCallPopup" class="order-call-popup" onclick="closeCallPopup()">
+      <div class="order-call-box">
+        <div class="call-header-badge">
+          <i class="fa-solid fa-bullhorn"></i> SILAKAN AMBIL PESANAN
+        </div>
+        <div id="popupOrderNumber" class="call-number-huge">#00</div>
+        <div class="call-instruction">Pesanan Anda Siap di Meja Kasir / Pengambilan</div>
+        <div id="popupCustomerName" class="call-customer">Atas Nama: Pelanggan</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="./socket.io/socket.io.js"></script>
+  <script src="./js/sound.js"></script>
+  <script src="./js/display.js"></script>
+</body>
+</html>
